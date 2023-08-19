@@ -1,0 +1,28 @@
+Learnt about how to import data to PowerBI from different sources which include
+Excel, Ms Access, data from Web and also, data from Excel Pivot table model.
+While accessing data from Ms Access, I encountered an error whereby the data seeems 
+incompatible with the PowerBI.  I was able to resolve the issue by installing 
+AccessDatabase Engine X-64 redistributed. The PowerBI on my machine is a 64-bit application
+while the Office 365 is a 32-bit which was what led to the incompatibility.
+
+There is also difference between "Get Data" and "Import" Data. Knowing when to 
+use each one of them will help when using PowerBI.
+
+Import data is useful when bringing in Power models from excel, while Get data 
+is more useful when bringing direct data as it is in excel.
+
+When sharing the PowerBI you create with other people, you have to send them the
+source data from excel to them as well, because without the data source, the user
+will be limited in what they can do with the PowerBI desktop file.
+
+Data Transformation
+In this aspect, I learnt how to rename fields, populate first rows as headers
+in a table, how to add or remove columns from tables, how to add values to a table.
+Also, using power query to do some of this transformation is part of what was
+discussed in the training video. 
+
+Enhancing Data Model
+Under this topic, I learnt how to merge two tables together when they have a 
+common column. I can merge as a new query in Power Query window or merge into the 
+existing query. When performing the merging, I can choose the "Join Types" that
+is suitable for what I want to do.
